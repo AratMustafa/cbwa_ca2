@@ -33,3 +33,9 @@ Read the [deployment with docker in ionic](https://blog.knoldus.com/deployment-w
 When we use nginx:alpine image , we get some error because of effect the alpine version of nginx. nginx:latest (based on debian).
 
 Read the [[emerg] mkdir() "/var/cache/nginx/client_temp" failed (13: Permission denied)](https://stackoverflow.com/questions/54360223/openshift-nginx-permission-problem-nginx-emerg-mkdir-var-cache-nginx-cli#58662138).
+
+We need to check if many users in the traffic,should be done changed CPU limit;
+
+Read the [Docker Container CPU limits](https://www.thorsten-hans.com/docker-container-cpu-limits-explained)
+
+Read the [Docker Container Management](https://phoenixnap.com/kb/docker-container-management)
