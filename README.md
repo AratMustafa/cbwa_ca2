@@ -29,3 +29,7 @@ Browse to `http://localhost:8080`.
 ## Based on this documentation built the Dockerfile up!
 
 Read the [deployment with docker in ionic](https://blog.knoldus.com/deployment-with-docker-in-ionic/).
+
+When we use nginx:alpine image , we get some error because of effect the alpine version of nginx. nginx:latest (based on debian).
+
+Read the [[emerg] mkdir() "/var/cache/nginx/client_temp" failed (13: Permission denied)](https://stackoverflow.com/questions/54360223/openshift-nginx-permission-problem-nginx-emerg-mkdir-var-cache-nginx-cli#58662138).
